@@ -1,0 +1,5 @@
+### Raiz da aplicação
+GET http://localhost:5081/
+
+### Testar a segunda funcionalidade
+POST http://localhost:5081/endereco
