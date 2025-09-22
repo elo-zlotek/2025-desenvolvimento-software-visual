@@ -9,9 +9,12 @@ public class Produto
     {
         Id = Guid.NewGuid().ToString();
         CriadoEm = DateTime.Now;
+        Nome = string.Empty;
     }
+
+    //Atributos|Propriedades|Caracteristicas C#
     public string Id { get; set; }
-    public string Nome { get; set; }
+    public string Nome { get; set; } 
     public int Quntidade { get; set; }
 
     public double Preco { get; set; }
@@ -19,9 +22,8 @@ public class Produto
     public DateTime CriadoEm { get; set; }
 
 
+    //Atributos|Propriedades|Caracteristicas  Java
 
-
-    //Atributos|Propriedades|Caracteristicas
     //private string nome;
     //public string getNome()
     // {

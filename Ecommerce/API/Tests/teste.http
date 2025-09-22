@@ -2,4 +2,16 @@
 GET http://localhost:5081/
 
 ### Testar a segunda funcionalidade
-POST http://localhost:5081/endereco
+GET  http://localhost:5081/api/produto/listar
+
+###Cadastrar produto 
+POST http://localhost:5081/api/produto/cadastrar
+Content-Type: application/json
+
+{
+    "nome" : "TV",
+    "quantidade" : 324,
+    "preço" : 678.89
+}
+
+
