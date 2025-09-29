@@ -4,6 +4,8 @@ GET http://localhost:5081/
 ### Testar a segunda funcionalidade
 GET  http://localhost:5081/api/produto/listar
 
+### Buscar produto por nome
+GET  http://localhost:5081/api/produto/buscar/TV
 ###Cadastrar produto 
 POST http://localhost:5081/api/produto/cadastrar
 Content-Type: application/json
