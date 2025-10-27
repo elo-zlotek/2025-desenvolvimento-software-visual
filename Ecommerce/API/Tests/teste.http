@@ -12,8 +12,19 @@ Content-Type: application/json
 
 {
     "nome" : "TV",
-    "quantidade" : 324,
-    "preço" : 678.89
+    "quntidade" : 324,
+    "preco" : 678.89
 }
 
+### Remover produto por id
+DELETE http://localhost:5081/api/produto/excluir/395209d9-38e0-49a8-b5ce-7896c13c8187
 
+###
+PATCH http://localhost:5081/api/produto/alterar/f2a96e81-0ee9-45b2-94ec-a342c4bb981d
+Content-Type: application/json
+
+{
+    "nome" : "TV",
+    "quntidade" : 324,
+    "preco" : 678.89
+}
